@@ -1,8 +1,10 @@
 # Boeing_AR_tools
+This library is used for Boeing AR project, 
+
 version 1:
-libraries used in Boeing AR project
 
-rendering models
-ml models
-
-use setup for pip 
+- rendering models
+- ml models
+- optimization models
+- image processing
+-  use setup for pip 
