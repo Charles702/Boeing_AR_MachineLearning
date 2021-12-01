@@ -1,0 +1,3 @@
+[console_scripts]
+my-command = commontools_ar.test:main
+
