@@ -1,0 +1,111 @@
+name: ml_training_config
+#dir
+project_base_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/
+# dataloader
+dataset:
+  dataset_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/dataset/
+
+dataloader:
+  dir_h5: /content/drive/MyDrive/BigDataHub/Differentiable_Render/dataset/trainval_h5/
+  train_h5_name: train_learn_seq.h5
+  val_h5_name: val_learn_seq.h5
+  test_h5_name: test_learn_data.h5
+  transformer:
+      use_transformer: true
+      without_resize: false
+      training_input_imgsize:
+      norm_mean: [0.485, 0.456, 0.406]
+      norm_std: [0.229, 0.224, 0.225]
+  n_sample: 10
+
+# ml_model
+ml_model:
+  train_type: exp1_14
+  model_cls_name: feature_op_model2
+  architecture:
+      arch_type: custom
+      dropout: false
+      share_conv: true 
+      last_linear_layer: false
+  loss_f:
+       mode: 1
+       w_t1: 0.1
+       w_t2: 0.0
+       w_t3: 0.9
+  
+  
+# training
+train:
+  continue_train: false
+  save_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/Learn_operators/  
+  output_result_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/train_output_profile/
+  optimizer:
+     type: Adam
+     lr: 0.001
+     weight_decay: 0.005
+
+#analysis
+analysis:
+   train_loss_profile: train_loss_detail_pdcustomepoch20_type_exp1_14_1_.csv
+   val_loss_profile: val_loss_detail_pdcustomepoch20_type_exp1_14_1_.csv
+   train_output_profile: train_model_output_pdcustomepoch20_type_exp1_14_1_.csv
+   val_output_profile: val_model_output_pdcustomepoch20_type_exp1_14_1_.csv
+
+# sequence strategy
+strategy:
+  [ [ 1, 0, 0, 0, 0, 0],       
+    [1, 0.2, 0.2, 0, 0, 0],    
+    [-1, 0, 0, 0, 0, 0],       
+    [-1, -0.2, -0.2, 0, 0, 0], 
+
+    [ 0, 1, 0, 0, 0, 0],
+    [ 0.2, 1, 0.2, 0, 0, 0],
+    [ 0, -1, 0, 0, 0, 0],
+    [ -0.2, -1, -0.2, 0, 0, 0],
+
+    [ 0, 0, 1, 0, 0, 0],
+    [ 0.2, 0.2, 1, 0, 0, 0],
+    [ 0, 0,-1, 0, 0, 0],
+    [ -0.2, -0.2,-1, 0, 0, 0],
+
+
+    [ 0, 0, 0, 1, 0, 0],
+    [ 0, 0, 0, 1, 0.2, 0.2],
+    [ 0, 0, 0,-1, 0, 0],
+    [ 0, 0, 0,-1, -0.2, -0.2],
+
+    [ 0, 0, 0, 0, 1, 0],
+    [ 0, 0, 0, 0.2, 1, 0.2],
+    [ 0, 0, 0, 0,-1, 0],
+    [ 0, 0, 0, -0.2,-1, -0.2],
+
+    [ 0, 0, 0, 0, 0, 1],
+    [ 0, 0, 0, 0.2, 0.2, 1],
+    [ 0, 0, 0, 0, 0, -1],
+    [ 0, 0, 0, -0.2, -0.2, -1],
+
+    [1, 1, 1, 0, 0, 0] ]
+
+# pose optimization via Differentiable_Render
+redner_opt:
+    model3D_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/DC3_model/
+    model3D_name: dc3.obj
+    env_p: sunsky.exr
+    init_cam:
+      cp: [-10.0, -2.0, 13.0]
+      lk: [0.0, -0.0,  0.0]
+      u: [.0, 1.0, 0.0]
+      fov: 45.0
+      resolution: [300,400]
+    edge_filter:
+      f_type: sobel
+    ml_model:
+      model_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/Learn_operators
+      saved_model_name: entire_net.pt
+      model_class_name: feature_op_model2
+    data:
+      seq_file: metadata_val_sequence.txt
+      tg_base_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/dataset/Blender_images/
+    analysis:
+      fig_dir: /content/drive/MyDrive/BigDataHub/Differentiable_Render/opt_process/
+

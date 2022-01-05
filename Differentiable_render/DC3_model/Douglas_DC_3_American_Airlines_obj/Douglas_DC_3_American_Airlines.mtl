@@ -1,0 +1,376 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.5 x64 6.5.0.9182
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl housing
+Ka 0.00392157 0.0313726 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 256
+#map_Kd Douglas_DC-3_housing_diff003.png
+map_bump Douglas_DC-3_housing_bump.png
+bump Douglas_DC-3_housing_bump.png
+map_opacity 
+map_d 
+refl 
+map_kS Douglas_DC-3_housing_reflect003.png
+map_kA 
+#map_Ns 
+
+newmtl aerials
+Ka 0.662745 0.662745 0.662745
+Kd 0.662745 0.662745 0.662745
+Ks 0.9 0.9 0.9
+illum 2
+Ns 17.1484
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl handle
+Ka 1 0.541176 0.133333
+Kd 1 0.541176 0.133333
+Ks 0.9 0.9 0.9
+illum 2
+Ns 22.6274
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl engines
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 64
+#map_Kd Douglas_DC-3_engine_diff.png
+map_bump Douglas_DC-3_engine_displace.png
+bump Douglas_DC-3_engine_displace.png
+map_opacity 
+map_d 
+refl 
+map_kS Douglas_DC-3_engine_reflect.png
+map_kA 
+#map_Ns 
+
+newmtl lightbulbs
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 4
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl lightbulb_red
+Ka 1 0 0
+Kd 1 0 0
+Ks 0.9 0.9 0.9
+illum 2
+Ns 4
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl levers
+Ka 0.588235 0.588235 0.588235
+Kd 0.588235 0.588235 0.588235
+Ks 0.9 0.9 0.9
+illum 2
+Ns 12.1257
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl floor
+Ka 0.321569 0.321569 0.321569
+Kd 0.321569 0.321569 0.321569
+Ks 0.9 0.9 0.9
+illum 2
+Ns 18.3792
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl seat
+Ka 0.866667 0.529412 0.231373
+Kd 0.866667 0.529412 0.231373
+Ks 0.9 0.9 0.9
+illum 2
+Ns 45.2548
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl sides
+Ka 0.00392157 0.00392157 0.00392157
+Kd 0.00392157 0.00392157 0.00392157
+Ks 0.9 0.9 0.9
+illum 2
+Ns 22.6274
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl cabin
+Ka 0.321569 0.321569 0.321569
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 17.1484
+#map_Kd Douglas_DC-3_cabin_diff.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl glass_orange
+Ka 0.588235 0.0980392 0
+Kd 0.588235 0.0980392 0
+Ks 0.9 0.9 0.9
+illum 2
+Ns 2048
+d 0.5
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl reflectors
+Ka 0.196078 0.196078 0.196078
+Kd 0.196078 0.196078 0.196078
+Ks 0.9 0.9 0.9
+illum 2
+Ns 362.039
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl glass
+Ka 0.00784314 0.00784314 0.00784314
+Kd 0.00784314 0.00784314 0.00784314
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+d 0.15
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl chassis
+Ka 0.321569 0.321569 0.321569
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 36.7583
+#map_Kd Douglas_DC-3_chassis_diff.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS Douglas_DC-3_chassis_reflect.png
+map_kA 
+#map_Ns 
+
+newmtl chassis_damper_stock
+Ka 0.00392157 0.00392157 0.00392157
+Kd 0.00392157 0.00392157 0.00392157
+Ks 0.9 0.9 0.9
+illum 2
+Ns 22.6274
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl wheels
+Ka 0.0235294 0.0235294 0.0235294
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 42.2243
+#map_Kd Douglas_DC-3_wheels_diff.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl chassis_rims
+Ka 0.588235 0.588235 0.588235
+Kd 0.588235 0.588235 0.588235
+Ks 0.9 0.9 0.9
+illum 2
+Ns 12.996
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl chassis_tubes
+Ka 0.0235294 0.0235294 0.0235294
+Kd 0.0235294 0.0235294 0.0235294
+Ks 0.9 0.9 0.9
+illum 2
+Ns 194.012
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl propellers
+Ka 0.133333 0.133333 0.133333
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 45.2548
+#map_Kd Douglas_DC-3_propeller_diff.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS Douglas_DC-3_propeller_reflect.png
+map_kA 
+#map_Ns 
+
+newmtl caps
+Ka 1 0.0901961 0.0901961
+Kd 1 0.0901961 0.0901961
+Ks 0.9 0.9 0.9
+illum 2
+Ns 45.2548
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl steering_wheel
+Ka 0.0666667 0.0666667 0.0666667
+Kd 0.0666667 0.0666667 0.0666667
+Ks 0.9 0.9 0.9
+illum 2
+Ns 42.2243
+#map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+#map_Ns 
+
+newmtl exhaust
+Ka 0.321569 0.321569 0.321569
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 4
+#map_Kd Douglas_DC-3_exhaust_diff.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS Douglas_DC-3_exhaust_reflect.png
+map_kA 
+#map_Ns 

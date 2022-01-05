@@ -1,0 +1,246 @@
+# Blender MTL File: 'dc3.blend'
+# Material Count: 23
+
+newmtl aerials
+Ns 17.148399
+Ka 1.000000 1.000000 1.000000
+Kd 0.662745 0.662745 0.662745
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl cabin
+Ns 17.148399
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_cabin_diff.png
+
+newmtl caps
+Ns 45.254789
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.090196 0.090196
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl chassis
+Ns 36.758292
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_chassis_diff.png
+map_Ks /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_chassis_reflect.png
+
+newmtl chassis_damper_stock
+Ns 22.627395
+Ka 1.000000 1.000000 1.000000
+Kd 0.003922 0.003922 0.003922
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl chassis_rims
+Ns 12.995998
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl chassis_tubes
+Ns 194.011990
+Ka 1.000000 1.000000 1.000000
+Kd 0.023529 0.023529 0.023529
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl engines
+Ns 63.999992
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_engine_displace.png
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_engine_diff.png
+map_Ks /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_engine_reflect.png
+
+newmtl exhaust
+Ns 4.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_exhaust_diff.png
+map_Ks /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_exhaust_reflect.png
+
+newmtl floor
+Ns 18.379194
+Ka 1.000000 1.000000 1.000000
+Kd 0.321569 0.321569 0.321569
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl glass
+Ns 63.999992
+Ka 1.000000 1.000000 1.000000
+Kd 0.007843 0.007843 0.007843
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.150000
+illum 9
+
+newmtl glass_orange
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.098039 0.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.500000
+illum 9
+
+newmtl handle
+Ns 22.627395
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.541176 0.133333
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl housing
+Ns 255.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_housing_bump.png
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_housing_diff003.png
+map_Ks /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_housing_reflect003.png
+
+newmtl levers
+Ns 12.125700
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl lightbulb_red
+Ns 4.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.000000 0.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl lightbulbs
+Ns 4.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl propellers
+Ns 45.254789
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_propeller_diff.png
+map_Ks /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_propeller_reflect.png
+
+newmtl reflectors
+Ns 362.039003
+Ka 1.000000 1.000000 1.000000
+Kd 0.196078 0.196078 0.196078
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl seat
+Ns 45.254789
+Ka 1.000000 1.000000 1.000000
+Kd 0.866667 0.529412 0.231373
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl sides
+Ns 22.627395
+Ka 1.000000 1.000000 1.000000
+Kd 0.003922 0.003922 0.003922
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl steering_wheel
+Ns 42.224306
+Ka 1.000000 1.000000 1.000000
+Kd 0.066667 0.066667 0.066667
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl wheels
+Ns 42.224306
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/jmerz/Documents/DC3/Douglas_DC_3_American_Airlines_obj/Douglas_DC-3_wheels_diff.png
