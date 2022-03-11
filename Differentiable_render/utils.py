@@ -22,7 +22,7 @@ def make_video_by_images(save_dir, name, format, framerate):
       save_dir + "{}_%d.{}".format(name,format), "-vb", "30M",
       save_dir+ "{}.avi".format(name)])
       
-# conert string to class 
+# convert string to class 
 def str_to_class(classname):
     return getattr(sys.modules[__name__], classname)
 
