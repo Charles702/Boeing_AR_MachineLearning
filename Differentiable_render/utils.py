@@ -27,7 +27,7 @@ def str_to_class(classname):
     return getattr(sys.modules[__name__], classname)
 
 
-# Generate poses arround target
+# Generate poses arround target position
 def intoplate_poses(t_p, t_fname, sample_n, dev_p=[4, 4, 4], dev_r = [0.3, 0.3, 0.3]):
     t_position = t_p[:3]
     t_quaternion = t_p[3:]
